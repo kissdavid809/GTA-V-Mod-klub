@@ -26,7 +26,7 @@ A weboldalon legyen lehetőség:
 - Modok vásárlására
 - Modok letöltésére
 - Fórum használatára
-- Felhasználói fiók létrehozására
+- Felhasználói fiók létrehozására (jövőben)
 - Prémium tartalmak megvásárlására
 
 ## Megrendelői igény
