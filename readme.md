@@ -20,11 +20,6 @@ modokat találhatnak, letölthetnek és vásárolhatnak.
 A weboldal célja egyrészt egy GTA V modding közösség létrehozása,
 ahol a felhasználók fórumon keresztül kommunikálhatnak egymással.
 
-## Megrendelői igény
-
-A megrendelő könnyen használható GTA V modoló közösségi
-weboldalt szeretne.
-
 A weboldalon legyen lehetőség:
 
 - Modok megtekintésére
@@ -33,6 +28,11 @@ A weboldalon legyen lehetőség:
 - Fórum használatára
 - Felhasználói fiók létrehozására
 - Prémium tartalmak megvásárlására
+
+## Megrendelői igény
+
+A megrendelő könnyen használható GTA V modoló közösségi
+weboldalt szeretne.
 
 ## Célközönség
 
