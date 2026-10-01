@@ -7,3 +7,46 @@ GTA V modoló community weboldal
 - Fórum
 - Modok
 - Prémium
+
+## Példa
+
+![oldal](image.png)
+
+## Adott cél
+
+Egy olyan weboldal létrehozása, ahol a GTA V modolás iránt érdeklődő játékosok
+modokat találhatnak, letölthetnek és vásárolhatnak.
+
+A weboldal célja továbbá egy GTA V modding közösség létrehozása,
+ahol a felhasználók fórumon keresztül kommunikálhatnak egymással.
+
+## Megrendelői igény
+
+A megrendelő egy modern, könnyen használható GTA V modoló közösségi
+weboldalt szeretne.
+
+A weboldalon legyen lehetőség:
+
+- Modok megtekintésére
+- Modok vásárlására
+- Modok letöltésére
+- Fórum használatára
+- Felhasználói fiók létrehozására
+- Prémium tartalmak megvásárlására
+
+## Célközönség
+
+- GTA V játékosok
+- GTA V modolók
+- FiveM játékosok
+- Modkészítők
+- GTA V közösségek
+
+## Prémium
+
+A prémium oldalon a fizetős modok találhatók.
+
+A felhasználó kiválaszthatja a számára megfelelő modot,
+majd a vásárlás után letöltheti azt.
+
+
