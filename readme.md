@@ -17,12 +17,12 @@ GTA V modoló community weboldal
 Egy olyan weboldal létrehozása, ahol a GTA V modolás iránt érdeklődő játékosok
 modokat találhatnak, letölthetnek és vásárolhatnak.
 
-A weboldal célja továbbá egy GTA V modding közösség létrehozása,
+A weboldal célja egyrészt egy GTA V modding közösség létrehozása,
 ahol a felhasználók fórumon keresztül kommunikálhatnak egymással.
 
 ## Megrendelői igény
 
-A megrendelő egy modern, könnyen használható GTA V modoló közösségi
+A megrendelő könnyen használható GTA V modoló közösségi
 weboldalt szeretne.
 
 A weboldalon legyen lehetőség:
