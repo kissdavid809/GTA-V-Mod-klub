@@ -1,3 +1,7 @@
+body{
+    background-color: grey;
+}
+
 header {
     text-align: center;
     display: flex;
@@ -11,4 +15,9 @@ header {
     text-shadow: 5px 5px 5px black;
     color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+}
+
+.navkep{
+    height: 30px;
+    width: 30px;
 }
