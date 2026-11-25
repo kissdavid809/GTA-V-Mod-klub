@@ -64,6 +64,13 @@ header {
     padding-left: 0;
 }
 
+footer {
+    padding: 14px 20px;
+    background-color: #656565;
+    color: white;
+    text-align: center;
+}
+
 .tartalom {
     display: flex;
     gap: 20px;
