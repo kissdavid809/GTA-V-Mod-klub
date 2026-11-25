@@ -17,15 +17,14 @@ GTA V modoló community weboldal
 Egy olyan weboldal létrehozása, ahol a GTA V modolás iránt érdeklődő játékosok
 modokat találhatnak, letölthetnek és vásárolhatnak.
 
-A weboldal célja egyrészt egy GTA V modding közösség létrehozása,
-ahol a felhasználók fórumon keresztül kommunikálhatnak egymással.
+A fórumoldal minta beszélgetéseket mutat be a GTA V modolásáról.
 
 A weboldalon legyen lehetőség:
 
 - Modok megtekintésére
 - Modok vásárlására
 - Modok letöltésére
-- Fórum használatára
+- Fórumtémák olvasására
 - Felhasználói fiók létrehozására (jövőben)
 - Prémium tartalmak megvásárlására
 
@@ -49,4 +48,8 @@ A prémium oldalon a fizetős modok találhatók.
 A felhasználó kiválaszthatja a számára megfelelő modot,
 majd a vásárlás után letöltheti azt.
 
+## Indítás
 
+Nyisd meg a [főoldalt](weboldal/index.html) a böngészőben.
+
+Az ingyenes modokat a készítők oldaláról lehet letölteni. A prémium modok fizetése és letöltése a külső áruházban vagy az ahhoz tartozó letöltési oldalon történik.
