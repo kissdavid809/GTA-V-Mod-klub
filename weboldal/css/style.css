@@ -239,13 +239,8 @@ footer {
     cursor: default;
 }
 
-.gomb + p {
-    margin-top: 8px;
-}
-
 .forum-oldal {
-    width: 1000px;
-    margin: 0 auto;
+    min-width: 720px;
 }
 
 .forum-tema {
