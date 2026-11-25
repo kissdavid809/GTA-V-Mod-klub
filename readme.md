@@ -2,7 +2,7 @@
 
 GTA V modoló community weboldal
 
-https://kissdavid809.github.io/GTA-V-Mod-klub/
+https://kissdavid809.github.io/GTA-V-Mod-klub/weboldal/index.html
 
 ## Ötletek
 - Főoldal
