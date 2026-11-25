@@ -47,9 +47,3 @@ A prémium oldalon a fizetős modok találhatók.
 
 A felhasználó kiválaszthatja a számára megfelelő modot,
 majd a vásárlás után letöltheti azt.
-
-## Indítás
-
-Nyisd meg a [főoldalt](weboldal/index.html) a böngészőben.
-
-Az ingyenes modokat a készítők oldaláról lehet letölteni. A prémium modok fizetése és letöltése a külső áruházban vagy az ahhoz tartozó letöltési oldalon történik.
