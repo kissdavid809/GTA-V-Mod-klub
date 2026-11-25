@@ -1,5 +1,22 @@
-body{
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
     background-color: grey;
+    color: #212529;
+    font-family: system-ui, sans-serif;
+    line-height: 1.5;
+}
+
+h1, h2, h3, h4, p {
+    margin-top: 0;
+}
+
+h1, h2, h3, h4 {
+    line-height: 1.2;
+    font-weight: 500;
 }
 
 header {
@@ -17,13 +34,34 @@ header {
     font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
 }
 
-.navkep{
+.navkep {
+    display: block;
     height: 30px;
     width: 30px;
 }
 
-.navbar *{
+.navbar {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 4px 8px;
+    padding: 8px 12px;
+    background-color: #656565;
+}
+
+.navbar a {
+    padding: 6px 8px;
     color: white;
+    text-decoration: none;
+}
+
+.navbar a:hover,
+.navbar a[aria-current="page"] {
+    text-decoration: underline;
+}
+
+.navbar a:first-child {
+    padding-left: 0;
 }
 
 .tartalom {
@@ -43,12 +81,12 @@ header {
     padding: 30px;
 }
 
-.fo-tartalom h2 {
+.fo-tartalom h1 {
     font-size: 28px;
-    margin-bottom: 25px;
+    margin-bottom: 16px;
 }
 
-.fo-tartalom h3 {
+.fo-tartalom h2 {
     font-size: 23px;
     margin-top: 35px;
     margin-bottom: 20px;
@@ -56,6 +94,7 @@ header {
 
 .modok {
     display: flex;
+    flex-wrap: wrap;
     gap: 20px;
 }
 
@@ -64,7 +103,7 @@ header {
     border: 1px solid #ddd;
     border-radius: 5px;
     overflow: hidden;
-    flex: 1;
+    flex: 1 1 180px;
     min-width: 0;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -90,8 +129,10 @@ header {
     padding: 12px;
 }
 
-.mod-szoveg h4 {
+.mod-szoveg h2,
+.mod-szoveg h3 {
     font-size: 18px;
+    margin-top: 0;
     margin-bottom: 8px;
 }
 
@@ -100,14 +141,31 @@ header {
     margin-bottom: 8px;
 }
 
+.mod-szoveg h3 a, .letoltes-mod a {
+    color: inherit;
+}
+
 @media (max-width: 768px) {
-    .modok {
-        flex-wrap: wrap;
+    header {
+        height: 180px;
+        font-size: 42px;
     }
 
-    .mod-kartya {
-        flex: 1 1 250px;
+    .tartalom {
+        flex-direction: column;
+        padding: 16px;
     }
+
+    .fo-tartalom,
+    .oldalsav {
+        width: 100%;
+        min-width: 0;
+    }
+
+    .fo-tartalom {
+        padding: 18px;
+    }
+
 }
 
 .oldalsav {
@@ -123,7 +181,7 @@ header {
     margin-bottom: 30px;
 }
 
-.oldalsav h3 {
+.oldalsav h2 {
     font-size: 20px;
     margin-bottom: 20px;
 }
@@ -150,4 +208,39 @@ header {
 .letoltes-mod p {
     font-size: 14px;
     margin: 0;
+}
+
+.gomb {
+    display: inline-block;
+    padding: 7px 12px;
+    border: 1px solid #555;
+    border-radius: 4px;
+    background-color: #555;
+    color: white;
+    font: inherit;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.gomb:hover {
+    background-color: #393939;
+}
+
+a:focus-visible, button:focus-visible, summary:focus-visible {
+    outline: 2px solid #175998;
+    outline-offset: 3px;
+}
+
+.navbar a:focus-visible {
+    outline-color: white;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .mod-kartya, .mod-kartya img, .letoltes-mod {
+        transition: none;
+    }
+
+    .mod-kartya:hover, .mod-kartya:hover img, .letoltes-mod:hover {
+        transform: none;
+    }
 }
